@@ -1,8 +1,4 @@
-# React + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+# Accordion using React
+- Created custom Accordion using React,
+- used useState hook to the store the single data as well as multiple data list,
+- ![Screenshot 2024-03-03 222229](https://github.com/chiillbro/Accordion/assets/144758027/c20f8d97-92a5-44ca-890b-0c48ae0a9aef)
