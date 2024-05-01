@@ -21,10 +21,14 @@ export default function Accordion() {
     }
     setMultiple(cpyMulti);
   }
-  console.log(selected, multiple);
+  // console.log(selected, multiple);
   return (
     <div className="container">
-      <button className="btn" onClick={() => setEnableMulti(!enableMulti)}>
+      <button
+        className="btn"
+        style={{ backgroundColor: enableMulti ? "#1A1932" : "#00006F" }}
+        onClick={() => setEnableMulti(!enableMulti)}
+      >
         {enableMulti ? (
           <div>Disable Multi Selection </div>
         ) : (
